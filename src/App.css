@@ -27,6 +27,45 @@
 .App-link {
   color: #61dafb;
 }
+.logos-container {
+  display: flex;
+  justify-content: space-between; /* Adjust the alignment as per your needs */
+  align-items: center; 
+  height: 300px;
+  width: 1640px;
+background-color: #282c34;
+
+
+}
+/* @media (max-width: 568px) {
+  .logos-container {
+    display: flex;
+  justify-content: space-between; /* Adjust the alignment as per your needs */
+  /* align-items: center; 
+  background-color: #282c34;
+  } */
+
+  .logos-wrapper {
+    /* Custom styles for smaller screens */
+    
+          justify-content: 'center';
+        max-width: 100%;
+          
+  }
+
+  p {
+    /* Custom styles for smaller screens */
+    max-width: "100%";
+  }
+
+  /* Adjust the logo styles as needed */
+  .logos-wrapper Logo {
+    /* Custom styles for smaller screens */
+    justify-content: 'center';
+    max-width: "100%";
+  }
+/* } */ 
+
 
 @keyframes App-logo-spin {
   from {
