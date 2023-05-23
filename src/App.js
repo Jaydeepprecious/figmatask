@@ -5,8 +5,8 @@ import Demo from './Demo';
 
 function App() {
   return (
-    <div className="App">
-    <Demoone/>
+    <div>
+  
     <Demo/>
               
         </div>
